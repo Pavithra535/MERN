@@ -1,0 +1,11 @@
+h1{
+    margin: 400px;
+    padding: 100px;
+    border:dotted 20px palevioletred
+}
+.box_model{
+    margin:300px;
+    padding:400px;
+    border: solid 200px black;
+    background-color: blue;
+}

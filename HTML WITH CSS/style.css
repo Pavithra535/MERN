@@ -1,0 +1,11 @@
+.internal{
+    height: 550px;
+    width: 400px;
+    background-color: black;
+}
+ ol{
+    margin-top:1rem;
+ }
+ *{
+    background-color: rgb(210, 104, 236);
+ }
