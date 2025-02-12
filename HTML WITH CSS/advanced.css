@@ -1,11 +1,24 @@
-h1{
-    margin: 400px;
-    padding: 100px;
-    border:dotted 20px palevioletred
-}
+
 .box_model{
-    margin:300px;
-    padding:400px;
-    border: solid 200px black;
-    background-color: blue;
+    margin:20px;
+    padding:10px;
+    border: solid 10px black;
+    background-color: rgba(231, 126, 235, 0.767);
+    
+}
+.fixed_position{
+    position: fixed;
+    padding: 10px;
+    text-align: center;
+    background-color: crimson;
+    border: solid 10px black;
+    width: 2000px;
+   
+}
+.relative_position{
+    position:relative;
+    margin: 20px;
+    padding: 10px;
+    border:solid 10px black;
+    background-color: rgba(231, 126, 235, 0.767);
 }
