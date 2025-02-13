@@ -1,0 +1,36 @@
+.relative-pos{
+    position: relative;
+    margin:30px;
+    text-align: center;
+    top:50px;
+    z-index: 2;
+
+}
+.relative-pos1{
+    position: relative;
+    background-color: blueviolet;
+    left: 50px;
+    top: 50px;
+    z-index: 4;
+}
+.relative-pos2{
+    position: relative;
+    left: 40px;
+    right: 40px;
+    z-index: 9;
+}
+.div{
+    height: 200px;
+    width: 200px;
+    
+    border: solid 10px violet;
+}
+.absolute-pos{
+}
+h1{
+    position: fixed;
+}
+.sticky-pos{
+    position:sticky;
+    top:100px;
+}

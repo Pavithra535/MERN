@@ -1,0 +1,41 @@
+li{
+    list-style-type: none;
+    padding:30px;
+
+}
+nav{
+    position:relative;
+    bottom:110px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(238, 198, 138);
+    height:60px;
+    padding:30px;
+
+}
+body{
+    margin:0px;
+}
+li a{
+    text-decoration: none;
+    color:black
+}
+a:hover{
+    color:blue;
+}
+.head{
+    position:relative;
+    top:5px;
+    z-index: 4;
+}
+h1{
+    display:inline;
+    position: relative;
+    bottom:40px;
+    left:10px;
+}
+img{
+     position: relative;
+     left:10px;
+     top:5px;
+}

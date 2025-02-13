@@ -1,0 +1,10 @@
+
+input{
+   border:solid 1px violet;
+   border-radius: 30px;
+}
+button{
+    background-color: #9932cc;
+    border-radius: 30px;
+    color: aqua;
+}
