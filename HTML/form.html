@@ -7,23 +7,44 @@
 </head>
 <body>
     <a href="index.html">Click here to go to previous page</a>
-    <form>
-        <label for="first name">First Name:</label>
-        <input type="text" placeholder="Enter your first name" required><br>
-        <label for="Last name">Last Name:</label>
-        <input type="text" placeholder="Enter your Last Name"><br>
-        <label for="password">Password:</label>
-        <input type="password" placeholder="Enter password" required><br>
+    <table>
+        <tr>
+           <label for="first name">First Name:</label>
+           <input type="text" placeholder="Enter your first name" required>
+        </tr>
+        <tr>
+           <label for="Last name">Last Name:</label>
+           <input type="text" placeholder="Enter your Last Name">
+        </tr>
+        <tr>
+           <label for="password">Password:</label>
+           <input type="password" placeholder="Enter password" required>
+        </tr>
+ *
+        <tr>
         <label for="email">Email:</label>
-        <input type="email" placeholder="Enter email" required value="@gmail.com"><br>
+        <input type="email" placeholder="Enter email" required value="@gmail.com">
+        </tr>
+        <tr>
         <label for="dob">Date of Birth</label>
-        <input type="date"><br>
+        <input type="date">
+        </tr>
+        <tr>
         <label for="Mobile">Mobile number:</label>
-        <input type="tel" placeholder="Mobile number"><br>
+        <input type="tel" placeholder="Mobile number">
+        </tr>
+        <tr>
         <label for="Gender">Gender:</label>
-        <input type="radio" label="Gender">Male
-        <input type="radio" label="Gender">Female
+        <input type="radio" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" name="gender">
+        <label for="others">Others</label>
+        </tr>
+        <tr>
         <button>signup</button>
-    </form>
+        </tr>
+    </table>
 </body>
 </html>
