@@ -1,0 +1,51 @@
+.transition{ 
+    color:rgb(8, 39, 124);
+    background-color: rgb(76, 182, 224);
+   opacity: 0.5;
+}
+.transition:hover{
+    background-color: rgb(32, 230, 164);
+    height:150px;
+    width:200px;
+    text-align: center;
+    transform: rotate(360deg);
+    transition: transform 1s;
+}
+@keyframes animation-Div {
+    0%{
+      background-color: black;
+      left: 0px;
+      top:0px;
+    }
+    25%{
+        background-color: yellowgreen;
+        left: 100px;
+        top:0px;
+    }
+    50%{
+        background-color: pink;
+      left: 0px;
+      top:100px;
+    }
+    75%{
+        background-color: bisque;
+        left: 0px;
+        top: 100px;
+    }
+    100%{
+        background-color: black;
+        top: 0px;
+        left:0px;
+    }
+}
+.animation{
+    position:sticky;
+    animation-name: animation-Div;
+    background-color: burlywood;
+    height:100px;
+    width: 150px;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    transform:rotate(90deg);
+    transition: transform 10s;
+}
