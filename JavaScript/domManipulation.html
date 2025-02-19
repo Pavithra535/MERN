@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+<body>
+    <h2 id="empty">This is in color</h2>
+    <h1 id="domM domM2">Hello Dude!</h1>
+    <h3 id="others">Checking</h3>
+    <h4 id="further">Doing</h4>
+    <!-- <h2 id="domM1">Welcome guys</h2> -->
+    <script>
+        document.getElementById("domM domM2").textContent="Bye Dude!"; 
+        document.getElementById("empty").style.color = "pink";
+        document.getElementById("others").innerText="checked";
+        document.getElementById("further").append(" further");
+        //document.getElementById("domM2").textContent="hehe!"; 
+        //document.getElementById("domM1").innerHTML="Go back!";    
+    </script>
+</body>
+</html>
