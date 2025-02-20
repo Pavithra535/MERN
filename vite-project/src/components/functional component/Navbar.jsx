@@ -1,5 +1,6 @@
 import '../css/Navbar.css'
 import {Link} from 'react-router-dom';
+import { useState } from 'react';
 const Navbar = () =>{
     return(
         <header>
@@ -7,9 +8,8 @@ const Navbar = () =>{
                 <li><Link to='/'>Home</Link></li>
                 <li><Link to='/About'>About</Link></li>
                 <li><Link to='/Gallery'>Gallery</Link></li>
-                <li>Contact</li>
-                <li>Login</li>
-                <li>Signup</li>
+                <li><Link to='/UseEffectAPI'>useeffectAPI</Link></li>
+                <li><Link to='/UseRef'>useRef</Link></li>
             </nav>
         </header>
     )
